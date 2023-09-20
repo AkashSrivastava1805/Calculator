@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main1">
+        <div class="container">
+            <div class="container1">
+                <div class="line1">
+                    <input type="text" name="resultbox" id="resultbox" class="resultbox1" placeholder="0" readonly/>
+                </div>
+                <div class="line2">
+                    <button class="same" onclick="resultbox.value += '7'">7</button>
+                    <button class="same" onclick="resultbox.value += '8'">8</button>
+                    <button class="same" onclick="resultbox.value += '9'">9</button>
+                    <input type="button" class="same button" onclick="resultbox.value += '/'" value="÷"></input>
+                </div>
+                <div class="line3">
+                    <button class="same" onclick="resultbox.value += '4'">4</button>
+                    <button class="same" onclick="resultbox.value += '5'">5</button>
+                    <button class="same" onclick="resultbox.value += '6'">6</button>
+                    <input type="button" class="same button" onclick="resultbox.value += '*'" value="X"></input>
+                </div>
+                <div class="line4">
+                    <button class="same" onclick="resultbox.value += '1'">1</button>
+                    <button class="same" onclick="resultbox.value += '2'">2</button>
+                    <button class="same" onclick="resultbox.value += '3'">3</button>
+                    <button class="same" onclick="resultbox.value += '-'">-</button>
+                </div>
+                <div class="line5">
+                    <input type="button" class="same button" onclick="resultbox.value += '0'" value="0"></input>
+                    <button class="same" onclick="resultbox.value += '.'">.</button>
+                    <button class="same" onclick="resultbox.value += '+'">+</button>
+                    <button class="same" onclick="resultbox.value = eval(resultbox.value)">=</button>
+                </div>
+                <div class="line6">
+                    <button class="samebtn" onclick="resultbox.value = ''">AC</button>
+                    <button class="samebtn" onclick="resultbox.value = resultbox.value.toString().slice(0,-1) ">DE</button>
+                    <button class="same" onclick="resultbox.value = '%'">%</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

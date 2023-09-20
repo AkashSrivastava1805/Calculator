@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main1 {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(66, 56, 56);
+    height: 500px;
+    width: 400px;
+    border-radius: 35px;
+    border: 15px solid rgb(214, 104, 31);
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    height: 475px;
+    width: auto;
+    border: 5px solid black;
+    flex-direction: column;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.line1 {
+    width: 370px;
+    height: 125px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultbox1 {
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 95px;
+    width: 350px;
+}
+.line2{
+    width: 370px;
+    height: 125px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line3{
+    width: 370px;
+    height: 125px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line4{
+    width: 370px;
+    height: 125px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line5{
+    width: 370px;
+    height: 125px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.same{
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    font-weight: 800;
+    border: 2px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.same:hover{
+    background-color: black;
+    color: white;
+}
+#minus{
+    font-size: 60px;
+    font-weight: 600;
+}
+#resultbox{
+    text-align: right;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.line6{
+    width: 350px;
+    height: 125px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.samebtn{
+    height: 55px;
+    width: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+}
